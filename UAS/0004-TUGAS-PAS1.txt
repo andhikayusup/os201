@@ -5,9 +5,8 @@ andhikayusup
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200624-095024-5599-UAS/> 
+200624-095024-5599-UAS/>
 $ PS1="\$(eval \$PSTAMP)"
-200624-095029-1383-UAS/> source ./PAS1.sh
 200624-095043-9dcd-UAS/> echo -e $CEKSAYA
 andhikayusup ZCZCSCRIPTSTART 200531-021907 andhikayusup
 andhikayusup andhikayusup 200531-141953-f16d-andhika.yusup/ 200531-141953 SEQOK SUMQOK f16dd616
@@ -18,18 +17,18 @@ andhikayusup ZCZCSCRIPTSTOP 200531-022030 SEQOK
 
 200624-095052-a62e-UAS/> echo -e $CEKSEBELA1
 andhikayusup ZCZCSCRIPTSTART 200604-080156 AndiALH
-andhikayusup AndiALH 200604-200313-3e65-abdurrahman.luqmanul/ 200604-200313 SEQOK SUMNO 3e651af8
-andhikayusup AndiALH 200604-200320-7ec8-abdurrahman.luqmanul/ 200604-200320 SEQOK SUMNO 7ec8d2d6
-andhikayusup AndiALH 200604-200341-0884-abdurrahman.luqmanul/ 200604-200341 SEQOK SUMNO 088443a0
-andhikayusup AndiALH 200604-200350-c12d-abdurrahman.luqmanul/ 200604-200350 SEQOK SUMNO c12d83d0
+andhikayusup AndiALH 200604-200313-3e65-abdurrahman.luqmanul/ 200604-200313 SEQOK SUMOK 3e651af8
+andhikayusup AndiALH 200604-200320-7ec8-abdurrahman.luqmanul/ 200604-200320 SEQOK SUMOK 7ec8d2d6
+andhikayusup AndiALH 200604-200341-0884-abdurrahman.luqmanul/ 200604-200341 SEQOK SUMOK 088443a0
+andhikayusup AndiALH 200604-200350-c12d-abdurrahman.luqmanul/ 200604-200350 SEQOK SUMOK c12d83d0
 andhikayusup ZCZCSCRIPTSTOP 200604-080409 SEQOK
 
 200624-095059-430d-UAS/> echo -e $CEKSEBELA2
 andhikayusup ZCZCSCRIPTSTART 20706-172437 andrewtheodore
-andhikayusup andrewtheodore 200607-172454-9d3f-UAS/ 200607-172454 SEQOK SUMNO 9d3f02c1
-andhikayusup andrewtheodore 200607-172501-e7f1-UAS/ 200607-172501 SEQOK SUMNO e7f171b6
-andhikayusup andrewtheodore 200607-172509-993c-UAS/ 200607-172509 SEQOK SUMNO 993c0061
-andhikayusup andrewtheodore 200607-172516-81b1-UAS/ 200607-172516 SEQOK SUMNO 81b16142
+andhikayusup andrewtheodore 200607-172454-9d3f-UAS/ 200607-172454 SEQOK SUMOK 9d3f02c1
+andhikayusup andrewtheodore 200607-172501-e7f1-UAS/ 200607-172501 SEQOK SUMOK e7f171b6
+andhikayusup andrewtheodore 200607-172509-993c-UAS/ 200607-172509 SEQOK SUMOK 993c0061
+andhikayusup andrewtheodore 200607-172516-81b1-UAS/ 200607-172516 SEQOK SUMOK 81b16142
 andhikayusup ZCZCSCRIPTSTOP 20706-172523 SEQOK
 
 200624-095104-1e56-UAS/> exit
