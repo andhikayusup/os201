@@ -1,5 +1,5 @@
 Script started on Wed 24 Jun 2020 09:49:36 AM WIB
-]0;andhika.yusup@badak: ~/UASandhika.yusup@badak:~/UAS$ PS1="$ "
+andhika.yusup@badak:~/UAS$ PS1="$ "
 $ echo $GitHubUser
 andhikayusup
 $ echo $PSTAMP
