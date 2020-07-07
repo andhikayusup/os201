@@ -1,7 +1,7 @@
-Script started on Mon 06 Jul 2020 04:19:16 PM WIB
-andhika.yusup@badak:~/UAS$ PS1="$ "
+Script started on Tue 07 Jul 2020 10:11:32 AM WIB
+]0;andhika.yusup@badak: ~/UASandhika.yusup@badak:~/UAS$ PS1="$ "
 $ date
-Mon Jul  6 16:19:25 WIB 2020
+Tue Jul  7 10:11:46 WIB 2020
 $ echo $HOSTNAME
 badak
 $ echo $akunGitHub
@@ -9,18 +9,18 @@ andhikayusup
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ PS1="\$(eval \$PSTAMP)"
-200706-161953-397d-UAS/> gpg2 --list-keys
+200707-101209-9ad3-UAS/> gpg2 --list-keys
 /home/fasilkom/mahasiswa/a/andhika.yusup/.gnupg/pubring.gpg
 -----------------------------------------------------------
 pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
 uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
 sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
 
-pub   4096R/371A2288 2020-02-17
-uid       [ultimate] Andhika Yusup Maulana <andhika.yusup@ui.ac.id>
-sub   4096R/B7C6B22B 2020-02-17
+pub   3072R/7F814455 2020-03-02 [expires: 2022-03-02]
+uid       [ unknown] Andhika Yusup Maulana <andhika.yusup@ui.ac.id>
+sub   3072R/57B91430 2020-03-02 [expires: 2022-03-02]
 
-200706-162002-2514-UAS/> exit
+200707-101216-0a10-UAS/> exit
 exit
 
-Script done on Mon 06 Jul 2020 04:20:13 PM WIB
+Script done on Tue 07 Jul 2020 10:12:29 AM WIB
